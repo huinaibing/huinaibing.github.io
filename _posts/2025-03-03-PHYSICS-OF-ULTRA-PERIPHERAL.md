@@ -13,10 +13,10 @@ usemathjax: true
 
 携带高电荷的离子运动时会产生强电磁场，其作用等效于光子束流。在大碰撞参数条件下，强子相互作用无法发生，此时离子通过光子-离子和光子-光子碰撞（称为超周边碰撞，UPCs）进行相互作用。相对论性重离子对撞机（RHIC）、Tevatron对撞机以及大型强子对撞机（LHC）等强子对撞机能够以远超其他设备的亮度与能量实现光核作用和双光子作用；LHC将达到的[\gamma p]作用能量是强子-电子环形加速器（HERA）的十倍。目前已开展的研究涵盖反氢产生、[\rho^0]介子的光致生成、铅向铋的嬗变、集体核共振激发等多样化反应。在LHC上，通过UPCs可以研究多种新型物理过程。
 
-![alt text](/img/md/image.png)
-![alt text](/img/md/image-1.png)
-![alt text](/img/md/image-2.png)
-![alt text](/img/md/image-3.png)
+![alt text](/img/physicsofultra/image.png)
+![alt text](/img/physicsofultra/image-1.png)
+![alt text](/img/physicsofultra/image-2.png)
+![alt text](/img/physicsofultra/image-3.png)
 
 # Physics of Ultra-Peripheral Nuclear Collisions (UPCs)
 
@@ -153,7 +153,7 @@ $$
 
 $\gamma \gamma \rightarrow X$这种过程可以用来探测*夸克结构或介子共振的自旋结构*，介子对、重子对的产生也可以探测强子的内部结构，在LHC这里会有$\gamma \gamma \rightarrow W^+ W^-$过程
 
-![alt text](/img/md/image-4.png)
+![alt text](/img/physicsofultra/image-4.png)
 
 双光子过程的截面
 $$
