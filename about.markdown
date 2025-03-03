@@ -16,3 +16,7 @@ You can find the source code for Jekyll at GitHub:
 
 
 [jekyll-organization]: https://github.com/jekyll
+
+正在总结自己这辈子做的笔记，包括计算机和物理的
+
+有些笔记放不上去，因为结构比较复杂（root笔记，正在想办法弄）
