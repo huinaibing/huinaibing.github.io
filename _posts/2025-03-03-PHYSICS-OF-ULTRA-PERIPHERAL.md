@@ -4,7 +4,7 @@ usemathjax: true
 ---
 
 
-# 注意：若有LaTeX公式无法显示，就`git clone`后拿其他软件看
+# 注意：若有LaTeX公式无法显示，就多刷新几次，实在不行就去我仓库下载后拿其他软件看
 
 > 以下总结来自ai
 
@@ -165,6 +165,74 @@ $$
 $$
 
 其中$\sigma_X^{\gamma \gamma}(\omega_1 \omega_2)$是双光子截面，这玩意和公式（1）长的很像，（**这个地方由于翻译问题，还需要确定一下它说的是哪个过程，看看后面的文章有没有讲清楚？**）
+
+
+## 1.1 虚光子流
+众所周知，一个相对论粒子的电磁场会收缩，收缩成一个pancake，光子的能谱取决于目标和电荷的最小距离以及抛射体的速度
+（这个目标和电荷各指的啥？我猜这个最小距离是碰撞参数b, 怎么感觉他说的是打靶）
+
+在碰撞参数b下，相互作用时间是 $\Delta t \widetilde{\ \ \ \ } b / (\gamma v)$, 在实验室系，最大光子能量
+$$
+\begin{align}
+\omega^{max} &= \frac{\hbar}{\Delta t} \ \widetilde{\ \ \ }\ \frac{\gamma \hbar v}{b} 
+\end{align}
+$$
+
+下面这个公式我没弄懂
+
+$$
+\begin{align}
+\gamma &= 2 \gamma^2_{collider} - 1
+\end{align}
+$$
+
+对于擦边碰撞，$b = 2R_A$，由公式（3），最大光子能量对于核子的能量是
+$$
+\begin{align}
+\frac{\hbar}{2R_A Am c}
+\end{align}
+$$
+
+这里稍微计算可以发现作者使用了以下近似，很奇怪
+$$
+\begin{align}
+  \frac{\gamma v}{c} & \approx 1 \\
+  \beta^2 & \approx \frac{1}{2}
+\end{align}
+$$
+
+对于重离子，$R_A \approx 7 fm$，对于质子，$R_A$没有定义（？？？），重离子中，光子对于核子的能量比值为$0.03 / A$（这个A的意义不明，怀疑作者写错了）
+，质子的光子的能量比值取$10\%$
+
+单位面积的虚光子流强
+$$
+\begin{align}
+  N(\omega, b) = \frac{Z^2 \alpha \omega^2}{\pi^2 \gamma^2 \hbar^2 \beta^2 c^2}(K^2_1(x) + \frac{1}{\gamma^2}K^2_0(x))
+\end{align}
+$$
+
+其中总虚光子流强,(显然就是把N对所有可能的碰撞参数积分)
+$$
+\begin{align}
+  n(\omega) = \int N(\omega, b) d^2 b
+\end{align}
+$$
+
+Z指的是离子的电荷量，$x = \frac{\omega b }{\gamma \beta \hbar c}$，两个K是修正杯赛耳函数
+K1描述虚光子的横向极化，K0描述纵向极化，对于超相对论粒子主要是横向极化占大头
+
+当$\omega > \gamma v \hbar / b$的时候，光子通量指数型减少，因为前面说的光子的最大能量是这个（公式（3））
+
+这些$-q^2 < (\hbar / R_A)^2$的光子几乎像真的一样，这个量被叫做虚拟度，有动量平方的量纲
+
+
+
+
+
+
+
+
+
 
 
 
