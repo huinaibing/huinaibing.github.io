@@ -22,11 +22,11 @@ $VARIABLE=value
 
 上面的定义不能加空格，要加的话也要用`“”`引号
 
-![image-20250304132035479](./img/2025-03-04-Linux-Learning/image-20250304132035479.png)
+![image-20250304132035479](./img/2025-03-04-Linux-Learning/image20250304132035479.png)
 
 显然，shell把它当成命令了
 
-![image-20250304132118538](./img/2025-03-04-Linux-Learning/image-20250304132118538.png)
+![image-20250304132118538](./img/2025-03-04-Linux-Learning/image20250304132118538.png)
 
 同理，shell把1当成命令了
 
@@ -37,13 +37,13 @@ echo $MYVAL
 echo ${MYVAL}
 ```
 
-![image-20250304132349015](./img/2025-03-04-Linux-Learning/image-20250304132349015.png)
+![image-20250304132349015](./img/2025-03-04-Linux-Learning/image20250304132349015.png)
 
 注意的这里的command not found，这说明shell直接把$MYVAL当成指令了，显然这个可以用于简化一些编程操作
 
 `unset`可以删除一个变量，`set`不带参数可以显示所有变量（包括用户的），`env` `printenv`也可以，但是只**显示系统的**
 
-![image-20250304132842429](./img/2025-03-04-Linux-Learning/image-20250304132842429.png)
+![image-20250304132842429](./img/2025-03-04-Linux-Learning/image20250304132842429.png)
 
 测试一下
 [111111](/test/tests)
