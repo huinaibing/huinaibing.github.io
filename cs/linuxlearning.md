@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About
+title: 闭着眼睛学Linux
 permalink: /cs/linuxlearning
 usemathjax: true
 ---
