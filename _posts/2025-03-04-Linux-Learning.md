@@ -44,3 +44,6 @@ echo ${MYVAL}
 `unset`可以删除一个变量，`set`不带参数可以显示所有变量（包括用户的），`env` `printenv`也可以，但是只**显示系统的**
 
 ![image-20250304132842429](./img/2025-03-04-Linux-Learning/image-20250304132842429.png)
+
+测试一下
+[111111](/test/tests)
