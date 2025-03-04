@@ -1,3 +1,10 @@
+---
+layout: post
+title: About
+permalink: /cs/o2learning
+usemathjax: true
+---
+
 ## cmake
 
 > ![image-20250122134455783](/img/o2learn/image-20250122134455783.png)

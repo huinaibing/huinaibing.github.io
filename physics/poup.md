@@ -1,6 +1,8 @@
 ---
+layout: post
+title: About
+permalink: /physics/poup
 usemathjax: true
-
 ---
 
 

@@ -1,3 +1,10 @@
+---
+layout: post
+title: About
+permalink: /cs/linuxlearning
+usemathjax: true
+---
+
 > 本笔记基于尹航老师与张清国老师的课件，主要是shell编程，基本命令懒得写
 
 # 简单的shell
