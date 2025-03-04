@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About
+title: 超级无敌帅气小模板
 permalink: /cs/my_template
 usemathjax: true
 ---

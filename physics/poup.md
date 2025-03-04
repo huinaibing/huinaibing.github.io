@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About
+title: PHYSICS-OF-ULTRA-PERIPHERAL
 permalink: /physics/poup
 usemathjax: true
 ---

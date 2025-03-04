@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About
+title: 用脚轻松学O2
 permalink: /cs/o2learning
 usemathjax: true
 ---
