@@ -65,6 +65,8 @@ $$
 ### 电离
 
 一次散射，入射粒子能给**静止电子的最大动能**(入射粒子动量$p = \gamma m_0\beta c$)(这个自己推导去，作业有一题是这个)
+
+
 $$
 \begin{align}
 T_{max} &= \frac{2 m_e c^2 \beta^2\gamma^2}{1 + 2 \gamma m_e / m_0 + (m_e / m_0)^2}
@@ -72,19 +74,31 @@ T_{max} &= \frac{2 m_e c^2 \beta^2\gamma^2}{1 + 2 \gamma m_e / m_0 + (m_e / m_0)
 &= \frac{2m_ep^2}{m_0^2 + m_e^2 + 2 m_eE / c^2}
 \end{align}
 $$
+
+
 低能情况下（为什么是这个？因为第一个式子分母有这个，然后电子质量很小，$\gamma$也不大）
+
+
 $$
 \begin{align}
 2\gamma m_e / m_0 \ll 1
 \end{align}
 $$
+
+
 然后入射粒子很重
+
+
 $$
 \begin{align}
 m_e < m_0
 \end{align}
 $$
+
+
 结合上面两个公式可以把$T_{max}$上面的表达式化简（平方项舍去，第二项舍去）
+
+
 $$
 \begin{align}
 T_{max} &=  2m_e c^2 \beta^2 \gamma^2
@@ -93,19 +107,74 @@ $$
 
 
 由于电子质量特别小，所以一般都把平方项扔掉
+
+
 $$
 \begin{align}
 T_{max} &= \frac{p^2}{\gamma m_0 + m_o^2 / 2 m_e} 
 \end{align}
 $$
+
+
 对于相对论粒子，能量约等于动能，$pc \sim E$
+
+
 $$
 \begin{align}
 E_{max} = \frac{E^2}{E + m_0^2 / 2m_e}
 \end{align}
 $$
+
+
 注意这里的$E_{max}$是电子的动能，E是入射粒子的能量
 
 在这个式子中可以发现，E特别大的时候，$E_{max} = E$，也就是能量全部传给电子了
 
-如果入射的是电子，情况就不同
+如果入射的是电子，近似全部用不了，直接带第一个公式
+
+
+$$
+\begin{align}
+T_{max} = \frac{p^2}{m_e + E / c^2}
+\end{align}
+$$
+
+
+### 电离能损
+
+BB公式
+
+![image-20250305120901868](/img/lizitance/image-20250305120901868.png)
+
+![image-20250305121136913](/img/lizitance/image-20250305121136913.png)
+
+**注意：这里的$dE \over dx $**最好加一个$<>$代表平均的电离能损 
+
+dx是**质量厚度**$dx = \rho dl = \frac{mdl}{V} = \frac{m}{ds}$(这里的dl是长度，ds是面积，和书上的不一样，dl的单位是cm，m的单位是g)，物理意义是单位面积的质量，那$dE / dx$的意义就是**单位面质量密度所损失的平均能量**，它的单位是$\frac{MeV}{g / cm^2}$
+
+在**低能条件、入射粒子很重（看上面的公式）**下
+
+![image-20250305124257223](/img/lizitance/image-20250305124257223.png)
+
+其中
+
+
+$$
+\begin{align}
+K = 4\pi N_A r^2_e m_e c^2 = 0.3071 \frac{MeV}{g / cm^2}
+\end{align}
+$$
+
+
+注意这个公式，他直接用$E_{kin}$了，然而这个近似是在相对论粒子里面用的，所以这里不严谨，还是用$T_{max}$比较好
+
+
+
+下图为**$\mu$穿越铜的图像**
+
+![image-20250305125450955](/img/lizitance/image-20250305125450955.png)
+
+显然，图中用带子分割了几个区域
+
+1. 能量很低时，粒子运动速度和原子中电子的速度差不多，公式不怎么适用
+2. 
