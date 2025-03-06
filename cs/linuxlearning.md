@@ -181,6 +181,11 @@ do
 done
 ```
 
+有几种生成iterable的方法
+
+- seq 
+- {1..5}
+
 ## while 
 
 ```sh
@@ -296,3 +301,10 @@ exec 1>&3
 bash <first.sh
 ```
 
+# printf
+
+```
+printf "%d%c%s..." $the_value_you_want_use
+```
+
+![image-20250306160916923](/img/linuxlearning/image-20250306160916923.png)
