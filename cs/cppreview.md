@@ -106,12 +106,15 @@ set(SOURCES
 	src/main.cpp
 )
 # 将文件们添加到可执行文件
-add_executable(${PROJECT_NAME} ${SOURCES})
+add_executable(hello_project ${SOURCES})
 # 把include文件夹（头文件们）包括进来
-target_include_directories(${PROJECT_NAME}
+target_include_directories(hello_project
 	PRIVATE
 		${PROJECT_SOURCE_DIR}/include
 )
 # 显然project source dir就是指的项目根目录，cmakelist文件的位置
 ```
 
+![image-20250311180624029](./img/cppreview/image-20250311180624029.png)
+
+`add_executable`后面 **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号** **不要加逗号**
