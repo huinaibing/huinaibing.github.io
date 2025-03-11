@@ -88,3 +88,30 @@ cmake ..
 # 显然，这种方法可以避免上面的问题
 ```
 
+## 一个标准的小项目
+
+![image-20250311173316044](./img/cppreview/image-20250311173316044.png)
+
+实现这样一个小小的项目的CMakeList需要如下几步
+
+```cmake
+# 版本
+cmake_minimum_required(VERSION 3.5)
+# 项目名称
+project(hello_project)
+# 指定所有需要参加编译的cpp
+# 注意这里可以理解为定义了一个变量，这个变量包含两个cpp文件
+set(SOURCES
+	src/Hello.cpp
+	src/main.cpp
+)
+# 将文件们添加到可执行文件
+add_executable(${PROJECT_NAME} ${SOURCES})
+# 把include文件夹（头文件们）包括进来
+target_include_directories(${PROJECT_NAME}
+	PRIVATE
+		${PROJECT_SOURCE_DIR}/include
+)
+# 显然project source dir就是指的项目根目录，cmakelist文件的位置
+```
+
