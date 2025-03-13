@@ -357,16 +357,31 @@ $$
 对于这个弹性散射，动量转移由强子形状因子决定
 
 
+
 $$
 \frac{d\sigma}{dt} =\left. \frac{d\sigma}{dt} \right|_{t = 0} \abs{F(t)}^2
 $$
 
 
 
+对于**质子靶**，$\abs{F(t)}^2 = \exp{(-b\abs{t})}$,其中对于轻的矢量介子$b \approx 10GeV^{-2}c^2$ ，对于$J/\Psi$，b取4。由于靶子比较大，所以动量转移较小的时候形状因子达到最大值
+
+原则上，形状因子在知道空间分布的情况下可以计算，而前向散射振幅（就是这个表达式右边的左边的那个导数）可以由光学定理和总的矢量介子散射截面联系起来
 
 
+$$
+\left . \frac{d\sigma}{dt} \right |_{t = 0} = C^2_V\frac{\sigma^2_{tot}(VA)}{16\pi \hbar^2}(1 + \eta^2)
+$$
 
 
+其中$\eta$是**散射振幅**的实部除以虚部（是指的上面那个A吗？估计可能是的）
+
+在Glauber模型中，弹性散射振幅由核子轮廓的二维傅里叶变换给出
+
+
+$$
+\frac{d\sigma(\gamma + A \rightarrow V + A)}{dt} = \frac{\pi}{\hbar^2}\abs{\int e ^{i \vec{p_T} \cdot \vec b / \hbar}\Gamma(\vec b) d^2b}^2
+$$
 
 
 
