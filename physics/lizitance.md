@@ -350,6 +350,12 @@ rho是曲率半径，电子和质子的同步辐射损耗比值如下
 
 ![image-20250307213810087](/img/lizitance/image-20250307213810087.png)
 
+![补充](./img/lizitance/image2.png)
+
+![1](./img/lizitance/image.png)
+
+
+
 
 ## 2.2 光子和物质的相互作用
 
