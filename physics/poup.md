@@ -379,29 +379,38 @@ $$
 在Glauber模型中，弹性散射振幅由核子轮廓的二维傅里叶变换给出
 
 
+
 $$
 \frac{d\sigma(\gamma + A \rightarrow V + A)}{dt} = \frac{\pi}{\hbar^2}\abs{\int e ^{i \vec{p_T} \cdot \vec b / \hbar}\Gamma(\vec b) d^2b}^2
 $$
 
 
 
+其中Gamma b是 **（**原子核的质量分布函数$\rho(b, z)$和矢量介子前向散射振幅的函数fVN**）**的函数（注意这里容易出现阅读理解错误），
+
+![image-20250317193142352](./img/poup/image-20250317193142352.png)
+
+这个**只对高能光子有用**（$c\gamma\beta\Delta {t} > R_A$）
 
 
 
+Glauber模型算出的$\rho^0$的总的产生截面（AuAu）是934mb，比某个参考蚊香（68）给出的值高50%，因为这个蚊香使用了$\sigma_{tot} \approx \sigma_{inel}(\rho A)$，
+
+在RHIC的实验给出的$\rho ^0$截面是$460 \pm 220 \pm 110 mb$（130A GeV）（A GeV表示每个核子是130GeV，总能量要乘以相对原子质量A）Glauber模型在这个能量算出来490mb，之前那个蚊香算出来的是350mb
+
+下图给出了rho0的连续产生的快度分布（STAR，AuAu，200 A GeV），显然，MC的模型很完美的描述了这个分布
+
+![image-20250317201917753](./img/poup/image-20250317201917753.png)
 
 
 
+对于重的矢量介子的前向散射振幅的领头阶如下
 
+![image-20250317203106168](./img/poup/image-20250317203106168.png)
 
+对于$\Upsilon$的产生(Upsilon)（$b\bar b$），$\sigma \propto W^{1.7}_{\gamma p}$
 
-
-
-
-
-
-
-
-
+由于$d\sigma/dt$对于$g(x)^2$的依赖，使得排他性的矢量介子产生是很好的探针（探测质子和原子核的胶子分布）
 
 
 
