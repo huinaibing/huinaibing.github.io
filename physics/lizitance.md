@@ -680,3 +680,89 @@ Rm几乎不依赖于介质
 下图**很经典，诠释了几种粒子的探测方法**
 
 ![image-20250313200142517](./img/lizitance/image-20250313200142517.png)
+
+# 第三章 统计
+
+## 3.1 统计分布
+
+小写p(x)和大写P(x)描述的不是一个东西，大写P要把小写p给加起来
+
+![image-20250321133120222](./img/lizitance/image-20250321133120222.png)
+
+![image-20250321133106914](./img/lizitance/image-20250321133106914.png)
+
+平均值
+
+$<x> = \int_{-\infin}^{\infin}xp(x)dx$
+
+定义一个量叫*矩*
+
+$<x^n> = \int_{-\infin}^{\infin}x^np(x)dx$
+
+又定义一个量叫*归一化矩*
+
+$C_n(x) = \frac{<x^n>}{<x>^n}$
+
+还有一个量叫*中心矩*
+
+$<(x - <x>)^n> \equiv \mu_n$
+
+显然，方差是*二阶中心矩*
+
+$\sigma^2 (x) = <(x - <x>)^2>$
+
+然后又定义了两个量偏度和峰度，偏度表示这个量偏离平均值的大小，峰度表示这个量和*正态分布*相比的尖锐程度
+
+
+$$
+\gamma_1 \equiv \frac{\mu_3}{\mu_2^{3/2}} \\ 
+\gamma_2 \equiv \frac{\mu_4}{\mu_2^2} - 3
+$$
+
+
+![image-20250321173132742](./img/lizitance/image-20250321173132742.png)
+
+
+
+协方差
+
+
+$$
+\begin{align}
+	cov(X, Y) &\equiv <(X - <X>)(Y - <Y>)> 
+	\\
+	&= <XY - X<Y> - Y<X> + <X><Y>>
+	\\
+	&= <XY> - <X><Y>
+\end{align}
+$$
+
+
+![image-20250321174334286](./img/lizitance/image-20250321174334286.png)
+
+这个协方差的物理意义是啥呢？就是大于0的时候这个图形向右上方拉长，小于的时候向左上方拉长
+
+由这个玩意可以定义一个相关系数
+
+
+$$
+\rho(x_i, x_j) = \frac{cov(x_i, x_j)}{\sigma(x_i)\sigma(x_j)}
+$$
+
+
+表示两个变量的相关度
+
+![image-20250321175054155](./img/lizitance/image-20250321175054155.png)
+
+定义**特征函数**$<e^{itx}>$为随机变量x的特征函数
+
+显然
+
+
+$$
+\begin{align}
+	\phi_x(t) &\equiv <e^{itx}> = \int e^{itx}p(x)dx
+	\\
+	p(x) &= \frac{1}{2\pi}\int\phi_x(t)e^{-itx}dt
+\end{align}
+$$
