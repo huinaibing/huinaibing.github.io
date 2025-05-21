@@ -5,6 +5,54 @@ permalink: /physics/sda
 usemathjax: true
 ---
 
+# 第一章 随机变量
+
+### 累积分布函数
+
+观测值小于等于x的概率
+
+---
+
+$$
+\begin{align}
+	F(x) &= \sum_{xi \le x} P(x_i) & \text{离散}
+	\\
+	F(x) &= \int_{-\infin}^x f(x\prime)dx\prime & \text{连续}
+\end{align}
+$$
+
+---
+
+
+
+### 分位数
+
+使$F(x) = \alpha$的x，或者说$x = F^{-1}(\alpha)$
+
+
+
+### 联合概率密度分布函数
+
+---
+
+$$
+\iiint f(x, y) dx dy = 1
+$$
+
+---
+
+$$
+f_x(x) = \int f(x, y) dy = \int g(x | y)f_y(y) dy
+$$
+
+---
+
+上面这个函数称为边缘概率密度函数，显然这个函数在有两个变量的情况下只考虑一个变量
+
+
+
+
+
 # 第二章 常用分布
 
 ## 2.1 二项/多项分布
@@ -116,8 +164,64 @@ $$
 
 
 
+## 2.5 高斯分布
+
+---
+
+$$
+\begin{align}
+	f(x; \mu, \sigma^2) &= \frac{1}{\sqrt{2 \pi \sigma^2}}\exp(-\frac{(x - \mu)^2}{2 \sigma^2})
+	\\
+	E[x] &= \mu
+	\\
+	V[x] &= \sigma^2
+\end{align}
+$$
+
+---
+
+一个小定理:
+
+---
+
+$$
+y \sim N(\mu, \sigma^2)
+\Rightarrow
+x = \frac{y - \mu}{\sigma} \sim N(0, 1)
+$$
+
+---
+
+### 中心极限定理
+
+如果n个**独立连续**随机变量，$\mu_i, \sigma^2_i$，**没有说他们是什么分布**，他们的和满足$\mu = \sum_i \mu_i, \sigma^2 = \sum_i \sigma^2_i$的高斯分布。
+
+
+
+## 2.6 卡方分布
+
+函数形式不想写
+
+---
+
+$$
+\begin{align}
+	E[z] &= n
+	\\
+	V[z] &= 2n
+\end{align}
+$$
+
+---
+
+上面的n是自由度，若$x_i \sim N(0, 1)$，则$\sum_ix_i^2$满足自由度为N的卡方分布。所以拟合的卡方每自由度最好是1
+
 
 
 # 第三章 蒙卡方法
+
+
+
+
 
 # 第四章 统计检验
