@@ -3,3 +3,6 @@
 [粒子探测第四章](/physics/lizitance2)
 
 [随笔（物理）](/physics/suibi)
+
+[概率统计](/physics/sda)
+
