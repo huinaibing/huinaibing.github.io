@@ -1,7 +1,7 @@
 ---
 layout: post
 title: feed back
-permalink: /physics/problem-report.md
+permalink: /physics/problem-report
 usemathjax: true
 ---
 
