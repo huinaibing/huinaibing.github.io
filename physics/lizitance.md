@@ -5,21 +5,7 @@ permalink: /physics/lizitance
 usemathjax: true
 ---
 
-> 教材：粒子探测技术（汪晓莲 李澄 等）
->
-> 使用了王亚平老师的ppt
 
-# 方便我打字的神奇妙妙工具
-
-> 在这里放一段公式以便复制粘贴
->
-> ```latex
-> $$
-> \begin{align}
-> 
-> \end{align}
-> $$
-> ```
 
 # 第一章
 
